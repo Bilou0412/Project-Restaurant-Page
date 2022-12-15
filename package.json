@@ -1,0 +1,38 @@
+{
+  "name": "project-restaurant-page",
+  "version": "1.0.0",
+  "description": "First time using webpack in project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bilou0412/Project-Restaurant-Page.git"
+  },
+  "author": "bilel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bilou0412/Project-Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/Bilou0412/Project-Restaurant-Page#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1",
+    "sass": "^1.56.2",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
