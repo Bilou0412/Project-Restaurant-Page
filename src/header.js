@@ -1,5 +1,3 @@
-import './style.scss';
-
 const header = () => {
   const container = document.querySelector('#container');
   const title = document.createElement('div');

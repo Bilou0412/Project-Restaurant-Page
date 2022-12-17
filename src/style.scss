@@ -4,8 +4,9 @@ html{
 }
 body{
 width: 100%;
+height: 100%;
 }
-.container{
+#container{
   display: grid;
   grid-template-columns: 5fr;
   grid-template-rows: 1.5fr 1fr 6fr;
@@ -37,12 +38,18 @@ width: 100%;
   background-color: #D38585;
   grid-row: 2/3;
   .btn{
+      display: flex;
       font-family: 'Hachi Maru Pop', cursive;
-      font-size: 36px;
+      font-size: 25px;
       align-self: center;
-      padding: 0 20px 0;
+      justify-content: center;
+      align-items: center;
+      padding: 0 15px 0;
+      height: 100%;
+      width: 100px;
       &:hover{
           background-color:#865454;
+          
           cursor: pointer;
       }
   }
